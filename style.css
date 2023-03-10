@@ -4,11 +4,12 @@
     justify-content: left;
     align-items: left;
     margin: 0 auto;
-    margin-left: 100px;
+    margin-left: 75px;
   }
 
 #links{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-right: 75px;
 }
