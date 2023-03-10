@@ -25,3 +25,23 @@
     margin: 0.5rem;
     text-align: center;
 }
+
+.navbar{
+    background-color: cornflowerblue;
+}
+
+#colf{
+    background-color: cadetblue;
+}
+
+.col1{
+    background-color: aqua;
+}
+
+.col2{
+    background-color: aquamarine;
+}
+
+.col3{
+    background-color: azure;
+}
