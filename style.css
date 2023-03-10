@@ -13,3 +13,27 @@
     align-items: center;
     margin-right: 75px;
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+#col{
+    flex-basis: 0;
+    flex-grow: 1;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.column1{
+
+}
+
+.column2{
+    
+}
+
+.column3{
+    
+}
