@@ -27,7 +27,7 @@ body{
     flex-direction: row;
 }
 
-#col, #colf{
+#col{
     flex-basis: 0;
     flex-grow: 1;
     margin: 0;
@@ -52,7 +52,11 @@ a:hover{
 }
 
 .contacts{
-    background-color: #D3D3D3;
+    background-color: #1f5e80;
+    padding: 25px;
+    align-items: center;
+    color: white;
+    
 }
 
 .col1{
