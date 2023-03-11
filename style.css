@@ -1,7 +1,8 @@
 body{
-    background-color: blue;
+    background-color: lightskyblue;
     overflow: hidden;
     margin: 0;
+    padding: 0;
 }
 
 #title {
@@ -22,7 +23,7 @@ body{
 }
 
 .container{
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
 }
 
@@ -31,27 +32,29 @@ body{
     flex-grow: 1;
     margin: 0;
     padding: 0;
-    margin-bottom: 10px;
     text-align: center;
+    height: inherit;
 
 }
 
 .navbar{
-    background-color: cornflowerblue;
+    background-color: #0E5A8A;
+    color:white;
+    
 }
 
 #colf{
-    background-color: cadetblue;
+    background-color: #BBE1C3;
 }
 
 .col1{
-    background-color: aqua;
+    background-color: #D3D3D3;
 }
 
 .col2{
-    background-color: aquamarine;
+    background-color: #8FCC99;
 }
 
 .col3{
-    background-color: azure;
+    background-color: #006400;
 }
