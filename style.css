@@ -31,7 +31,7 @@ body{
     flex-basis: 0;
     flex-grow: 1;
     margin: 0;
-    padding: 0;
+    padding: px;
     text-align: center;
     height: inherit;
 
@@ -52,9 +52,9 @@ a:hover{
 }
 
 .contacts{
-    background-color: #1f5e80;
-    padding: 25px;
-    align-items: center;
+    background-color: #1f4e60;
+    padding: 48px;
+    text-align: center;
     color: white;
     
 }
