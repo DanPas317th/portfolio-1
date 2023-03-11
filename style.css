@@ -1,6 +1,7 @@
 body{
     background-color: blue;
     overflow: hidden;
+    margin: 0;
 }
 
 #title {
