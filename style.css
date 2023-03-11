@@ -27,8 +27,10 @@ body{
 #col, #colf{
     flex-basis: 0;
     flex-grow: 1;
-    margin: 0.5rem;
+    margin: 25px;
+    margin-bottom: 25px;
     text-align: center;
+
 }
 
 .navbar{
