@@ -8,7 +8,8 @@ body{
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
     margin-left: 75px;
   }
 
@@ -27,7 +28,8 @@ body{
 #col, #colf{
     flex-basis: 0;
     flex-grow: 1;
-    margin: 10px;
+    margin: 0;
+    padding: 0;
     margin-bottom: 10px;
     text-align: center;
 
