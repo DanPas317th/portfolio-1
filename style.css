@@ -27,8 +27,8 @@ body{
 #col, #colf{
     flex-basis: 0;
     flex-grow: 1;
-    margin: 25px;
-    margin-bottom: 25px;
+    margin: 10px;
+    margin-bottom: 10px;
     text-align: center;
 
 }
