@@ -1,5 +1,5 @@
 body{
-    background-color: lightskyblue;
+    background-color:#0057b7;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -53,7 +53,7 @@ a:hover{
 
 .contacts{
     background-color: #1f4e60;
-    padding: 5px;
+    padding: 6px;
     text-align: center;
     color: white;
     
@@ -69,4 +69,9 @@ a:hover{
 
 .col3{
     background-color: #006400;
+}
+
+.greetings{
+    color: #ffd700;
+    text-align: center;
 }
