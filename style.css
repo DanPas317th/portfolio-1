@@ -6,11 +6,12 @@ body{
 }
 
 #title {
-    justify-content: left;
-    align-items: left;
-    margin: 0;
-    padding: 0;
-    margin-left: 75px;
+    padding-left: 20px;
+    padding-bottom: 200px;
+    padding-top: 175px;
+    background-color: #0E5A8A;
+    color:white;
+  
   }
 
 #links{
@@ -21,26 +22,20 @@ body{
 
 #links li{
   display: inline-block;
-  padding: 25
-}
-
-.container{
-    display: inline-flex;
-    flex-direction: row;
+  padding: 20px;
 }
 
 #col{
-    flex-basis: 0;
-    flex-grow: 1;
-    margin: 0;
-    padding: 25px;
+    padding: 30px;
     text-align: center;
     height: inherit;
+    padding-bottom: 200px;
+    padding-top: 175px;
 
 }
 
 .navbar{
-    background-color: #0E5A8A;
+    background-color: #106ea9;
     color:white;
     
     
