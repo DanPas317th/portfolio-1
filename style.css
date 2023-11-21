@@ -2,7 +2,10 @@ body, html {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth; /* Enables smooth scrolling */
+    font-family: 'Ubuntu', sans-serif;
 }
+
+
 
 
 header, main, footer {
@@ -15,8 +18,21 @@ header, main, footer {
 
 
 header {
-    background-color: #192a3e;
+    background: linear-gradient(rgba(25, 42, 62, 1), rgba(0, 0, 0, 1));
     color: #fff;
+      display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+
+#header-img {
+flex: 0 0 auto; /* Don't allow image to grow or shrink */
+margin-right: 20px; /* Adjust margin between the columns */
+}
+
+
+#header-text {
+flex: 1; /* Allow text to grow and take up available space */
 }
 
 
@@ -32,18 +48,26 @@ main {
 
 footer {
     background-color: #3498db;
+   background: linear-gradient(rgba(0, 0, 0, 1), rgba(175, 175, 255, 0.375)), url("https://e3.365dm.com/19/04/768x432/skynews-star-sky-night-somerset_4641946.jpg?20190416234653");
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
     color: #fff;
     height: 112.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
 /* Style for column buttons */
 .column-button {
-background-color: #186696;
+background-color: rgba(0,0,0,0.25);
+background: linear-gradient(rgba(0, 0, 0, 1), var(--button-color)), var(--button-image);
 color: #fff;
 border: 0px solid #2ecc71;
 border-radius: 0px;
-font-size: 28px;
+font-size: 48px;
 cursor: pointer;
 transition: background-color 0.5s ease;
 width: 33.33%;
@@ -53,23 +77,35 @@ text-align: center;
 display: flex;
 flex-direction: column;
 justify-content: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+transition:0.5s;
 }
-
-
 .column-button:hover {
-    background-color: #154360;
-    color: #fff;
+    background: linear-gradient(var(--button-color), rgba(0, 0, 0, 1)), var(--button-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: var(--button-font);
+    font-size: 56px;
 }
-.button-text {
-transition: transform 0.75s ease;
+
+
+#b1{
+--button-image: url("https://images.unsplash.com/photo-1613068687893-5e85b4638b56?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZnJvbnQlMjBlbmQlMjBkZXZlbG9wZXJ8ZW58MHx8MHx8fDA%3D");
+--button-color: rgba(41,128,185,0.5);
+--button-font: #3498db;
 }
-.button-desc {
-display: none;
-transition: opacity 0.75s ease;
+#b2{
+--button-image: url("https://www.gousa.study/images/ms-in-game-development-engineering-in-usa.jpg");
+--button-color: rgba(192,57,43,0.5);
+--button-font: #e74c3c;
 }
-.column-button:hover .button-desc {
-display: block;
-opacity: 1;
+#b3{
+--button-image: url("https://i.pinimg.com/736x/3b/35/5d/3b355d56c638122cff45c56fdcdad230.jpg");
+--button-color: rgba(39,174,96,0.5);
+--button-font: #2ecc71;
 }
 
 
@@ -80,4 +116,29 @@ opacity: 1;
     width: 100%;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+#pp{
+width: 350px;
+height: 350px;
+padding: 150px;
+}
+
+
+a{
+font-size:32px;
+padding-top: 16px;
+opacity: 0.01;
+transition: 0.5s;
+}
+a:hover{
+opacity: 1;
+}
+
+
+td{
+padding-left: 72px;
+padding-right: 72px;
+padding-top: 0px;
+padding-bottom: 0px;
+font-size: 48px;
 }
