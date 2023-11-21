@@ -94,17 +94,17 @@ transition:0.5s;
 
 #b1{
 --button-image: url("https://images.unsplash.com/photo-1613068687893-5e85b4638b56?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZnJvbnQlMjBlbmQlMjBkZXZlbG9wZXJ8ZW58MHx8MHx8fDA%3D");
---button-color: rgba(41,128,185,0.5);
+--button-color: rgba(00,100,255,0.75);
 --button-font: #3498db;
 }
 #b2{
 --button-image: url("https://www.gousa.study/images/ms-in-game-development-engineering-in-usa.jpg");
---button-color: rgba(192,57,43,0.5);
+--button-color: rgba(255,64,64,0.75);
 --button-font: #e74c3c;
 }
 #b3{
 --button-image: url("https://i.pinimg.com/736x/3b/35/5d/3b355d56c638122cff45c56fdcdad230.jpg");
---button-color: rgba(39,174,96,0.5);
+--button-color: rgba(32,255,32,0.75);
 --button-font: #2ecc71;
 }
 
@@ -123,14 +123,24 @@ height: 350px;
 padding: 150px;
 }
 
-
 a{
+    color:#00AAFF;
+    font-size: 36px;
+}
+
+a:hover{
+    color:#11BBFF;
+    font-size: 40px;
+}
+
+
+td a{
 font-size:32px;
 padding-top: 16px;
 opacity: 0.01;
 transition: 0.5s;
 }
-a:hover{
+td a:hover{
 opacity: 1;
 }
 
