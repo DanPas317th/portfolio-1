@@ -124,13 +124,14 @@ padding: 150px;
 }
 
 a{
-    color:#00AAFF;
+    color:#0099EE;
     font-size: 36px;
+    transition: 0.5s;
 }
 
 a:hover{
     color:#11BBFF;
-    font-size: 40px;
+    font-size: 48px;
 }
 
 
